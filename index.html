@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="this project has created for learning purpose">
+    <title>drag-n-drop-js - agilePoint.</title>
+    <!-- css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="container">
+        <!-- nav -->
+        <nav class="nav">
+            <!-- logo -->
+            <div class="logo">
+                <img src="img/agile.png" alt="logo image">
+                <h2>agile<span>Point</span>.</h2>
+            </div>
+
+            <!-- nav button -->
+            <button type="button" class="nav-btn btn">Contact</button>
+        </nav>
+
+        <!-- drag and drop -->
+        <h1 class="title">Drag & Drop</h1>
+
+        <div class="dragAndDrop-container">
+            <div id="left-box">
+                <div class="list" draggable="true">
+                    <img src="img/menu.png" alt="">
+                    List Item 1
+                </div>
+                <div class="list" draggable="true">
+                    <img src="img/menu.png" alt="">
+                    List Item 2
+                </div>
+                <div class="list" draggable="true">
+                    <img src="img/menu.png" alt="">
+                    List Item 3
+                </div>
+                <div class="list" draggable="true">
+                    <img src="img/menu.png" alt="">
+                    List Item 4
+                </div>
+            </div>
+
+            <div id="right-box"></div>
+        </div>
+        
+        <!-- footer -->
+        <footer>
+           <p>&copy; <a href="#"><b>agile</b>Point.</a>&bullet; July 26, 2023</p>
+           <p><a href="#">Khorshed Alam</a></p>
+        </footer>
+    </div>
+    
+
+
+    <!-- js -->
+    <script src="main.js"></script>
+</body>
+</html>
